@@ -1,0 +1,28 @@
+/* style.css */
+#app {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #nav li {
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  #nav li.active {
+    background-color: lightblue;
+  }
+  
+  #content {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  

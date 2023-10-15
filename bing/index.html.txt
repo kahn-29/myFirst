@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SPA Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>SPA Example</h1>
+    <ul id="tabs">
+      <li id="home-tab" class="active">Home</li>
+      <li id="about-tab">About</li>
+    </ul>
+    <div id="content">
+      <p>Welcome to this simple SPA example.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
